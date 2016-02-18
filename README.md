@@ -1,5 +1,6 @@
-# [Creed BoT](https://telegram.me/creedsteam) 
-**An Edited Bot Based On [Tele seed](http://github.com/SeedTeam/teleseed) Plugins and Added new and Usefull Plugins to it 
+# [RoohSavar](https://telegram.me/roohsavarbot) 
+
+**An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**
 # Features
 
 * **A powerful Anti spam with custom sensitivity For each group**
@@ -18,6 +19,9 @@
 * **And ...**
 
 **Table of Contents** 
+- [Roohsavar](#roohsavar)
+- [Features](#features)
+- [Commands](#commands)
 	- [Admins commands](#admins-commands)
 		- [Realm creation](#realm-creation)
 		- [Group creation](#group-creation)
@@ -69,8 +73,7 @@
 		- [lock groups member|name](#lock-groups-membername)
 			- [unlock groups member|name](#unlock-groups-membername)
 		- [Group link](#group-link)
-	        - [Group link Pv](#group-link-pv)
-	        - [change name|rules|name](#change-namerulesname)
+		- [change name|rules|name](#change-namerulesname)
 		- [Group log](#group-log)
 		- [Join](#join)
 - [Installation](#installation)
@@ -87,7 +90,7 @@
 ### Group creation
 >[!/]creategroup [group name]
 >
->>[!/]creategroup Creed
+>>[!/]creategroup SEED
 >>>will create a group
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
@@ -95,7 +98,7 @@
 ### Realm creation
 >[!/]createrealm [realm name]
 >
->>[!/]createrealm Creeds
+>>[!/]createrealm SEED
 >>>will create a realm
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
@@ -135,7 +138,7 @@
 
 ### Setting group name in realm 
 > [!/]setname [Group_id] [text]
->>[!/]setname 123456789 Creed
+>>[!/]setname 123456789 SEED
 >>>This command will set [text] as name of [Group_id]
 
 ### Setting rules in realm
@@ -144,16 +147,16 @@
 >>>This command will set [text] as rules of [Group_id]
 
 
-### Lock groups name|flood|photo|member|join|fosh|english|link in realm
-> [!/]lock [Group_id] [name|flood|photo|member|join|fosh|english|link]
+### Lock groups name|flood|photo|member in realm
+> [!/]lock [Group_id] [name|flood|photo|member]
 >>[!/]lock 123456789 name
->>>This command will lock name|flood|photo|member|join|fosh|english|link of [Group_id]
+>>>This command will lock name|flood|photo|member of [Group_id]
 
 
-### Unlock groups name|flood|photo|member|join|fosh|english|link
-> [!/]Unlock [Group_id] [name|flood|photo|member|join|fosh|english|link]
+### Unlock groups name|flood|photo|member
+> [!/]Unlock [Group_id] [name|flood|photo|member]
 >>[!/]Unlock 123456789 name
->>>This command will unlock name|flood|photo|member|join|fosh|english|link of [Group_id]
+>>>This command will unlock name|flood|photo|member of [Group_id]
 
 ## Group setting in realm
 >[!/]setting [Group_id]
@@ -178,7 +181,7 @@
 >>>_Only works in realms_ [username]
 
 ### Admins|group list in realm
->[!/]ist [admins|groups]
+>[!/]list [admins|groups]
 >>[!/]list groups
 >>>This command will return admins|groups list
 
@@ -189,8 +192,8 @@
 >>>
 >>>_Only sudo users can run this command_
 >
->/br [group_id] [text]
->>/br 123456789 Hello !
+>/bc [group_id] [text]
+>>/bc 123456789 Hello !
 >>>This command will send text to [group_id]
 
 ##Global ban commands
@@ -214,7 +217,7 @@
 >>>This command will set [User_id] as the owner of [group_id]
 
 ### Bot stats 
->[!/]stats creedbot
+>[!/]stats roohsavar
 >>This command will return bot stats
 
 # Realm Help
@@ -282,7 +285,7 @@ _Sudo users and admins can also use this commands in all groups_
 
 ### Changing Group name
 >[!/]setname [name]
->>[!/]setname Creed
+>>[!/]setname SEED
 >>>This command will set [name] as name of groups
 
 ### Group link
@@ -308,7 +311,7 @@ _Sudo users and admins can also use this commands in all groups_
 
 ### Flood sensitivity
 >[!/]setflood [value]
->>[!/]set flood 15  
+>>[!/]setflood 15  
 >>> will set flood sensitivity to [value]
 
 ### Group rules and about
@@ -404,7 +407,7 @@ _Sudo users and admins can also use this commands in all groups_
 
 ### change name|rules|name
 >[!/]changename [group_id] [name]
->>[!/]changename 123456789 Creed
+>>[!/]changename 123456789 SEED
 >
 >[!/]changrules [group_id] [rules]
 >>[!/]changrules 123456789 rules !
@@ -420,43 +423,8 @@ _Sudo users and admins can also use this commands in all groups_
 >/[!/]oin [group_id]
 >> This command will add user in [group_id]
 
-### Google 
->/[!]google [text[
->> This command will search About a word from google and gives link
 
-
-### Block 
->/[!]block user [user id]
->> This command Blocks The user
-
-### BooBs
->/[!]boobs or [!]butts
->> This command searches boobs and butts Pictures 
-
-
-### GPS
->/[!]gps city,place
->> THis command Searches about a City and place in there and Shows you on Map
-
-
-### Bin
->/[!]bin [command]
->> This plugins Does your commands on Terminal of server but it may be Harmfull for your server
-
-### Tag All
->/[!]tagall [text]
->> This Command tags Every one in group and Says your Text at last of the PM 
-
-### SmS
->/[!]sms [user id] [text]
->> This command Sends your text to the user
-
-### Text
->/[!]text [text]
->> This command Writes your Test in picture and sends it to you
-
-
-New plugins BY : [@Creed_is_dead](http://telegram.me/Creed_is_dead)
+**U can use both "/" and "!"**
 
 # Installation 
 
@@ -468,35 +436,17 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/Creedsteam/creed.git
-cd creed
+git clone https://github.com/theonlywild/roohsavar.git
+cd roohsavar
 chmod +x launch.sh
 ./launch.sh install
-go to creed/tg/tgl/structures.c and in line 983 there is 4 Blue sentences Remove them and put this phrase in the place of those Blues : case CODE_message_media_unsupported:
-M->type = tgl_message_media_unsupported;
-break;
-then come back to the TG file and type : Make
 ./launch.sh # Enter a phone number & confirmation code.
 ```
 ### One command
 To install everything in one command on debian-based distros, use: (useful for VPS deployment)
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/creedsteam/creed.git && cd creed && chmod +x launch.sh && ./launch.sh install && cd $home $$ cd creed & cd tg && cd tgl  && nano structures.c
-
-then you have to go to the line 983 there is 4 Blue Line you have to delete them and Put this Sentence in there  : 
-
-case CODE_message_media_unsupported:
-M->type = tgl_message_media_unsupported;
-break;
-
-then press Ctrl + X and press Y then press ENTER to save the file .
-
-then use this commands in terminal Again : 
-
-cd $home && cd creed && cd tg && make && cd $home && cd creed && ./launch.sh
-
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/SEEDTEAM/TeleSeed.git && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 ### Realm configuration 
 
@@ -509,7 +459,9 @@ open file ./data/config.lua
 add your id to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    118682430
+    12345678,
+    12345678,
+    12345678,
     0,
     YourID
   }
@@ -521,24 +473,15 @@ Create a realm using !createrealm command
 
 # Support and development
 
+Check out this tutorial by: [Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
+
 Do not contact **us** In private for support.
-Join our bot development group by sending `/join 76950056` to [@Creed_antispam](https://telegram.me/creedantispam_channel)
+Join our bot development group by sending `/join 85216216` to [@roohsavarbot](https://telegram.me/roohsavarbot)
 
-_If you are using /join service for first time you have to send it 11 times ( Bot is spam reported )_
 
-# Special thanks to
 
-For Creating The [CreedboT](http://github.com/CreedsTeam/Creed)
 
-[@Creed_is_dead](https://telegram.me/Arsalan_sahel)
 
-For Managing [@Creed_antispam](https://telegram.me/Creed_antispam) on Telegram
 
-[@Aria_Creed](https://telegram.me/Creed_aria)
 
-[@Amircc_Creed](https://telegram.me/Amircc_Creed)
-
-For graphic designs
-
-[@Jacki_Pendelton](https://telegram.me/Jacki_Pendelton)
-Our Telegram cahnnels > Persian : [@Creedantispam_Channel](https://telegram.me/creedantispam_Channel)
+END
