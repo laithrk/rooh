@@ -236,23 +236,29 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {118682430},--Sudo users
-    disabled_channels = {},
+    sudo_users = {196791585,158788916,131702074,103788804,0,tonumber(our_id)},--Sudo users
+    disabled_channels = {94293138},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.3
-    
-     Hello my Good friends 
-     
-    ‼️ this bot is made by : @creed_is_dead
-   〰〰〰〰〰〰〰〰
-   ߔࠀ   our admins are : 
-   ߔࠀ   @sorblack_creed
-   ߔࠀ   @amircc_creed
-   ߔࠀ   @aria_creed
-   〰〰〰〰〰〰〰〰
-  ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
-   تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
-   !feedback (your ideas and messages)
+    about_text = [[Roohsavar v3.5 - Open Source
+An advance Administration bot based on yagop/telegram-bot 
+
+💎github💎
+📁 https://github.com/theonlywild/roohsavar 📂
+
+⚜Admins⚜
+🔶 @lonelywild [Founder]
+🔶 @ShadowAdmin [programmer]
+🔶 @mehdi_killer78 [Manager]
+🔶 @masudre11  [Manager]
+
+❤️Special thanks to❤️
+❣ThisIsamirh❣
+❣milad_az❣
+❣amin826❣
+
+✌Our channels✌
+@roohsavarTeam [persian]
+🇮🇷 made in iran 🇮🇷
 ]],
     help_text_realm = [[
 Realm Commands:
